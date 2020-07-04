@@ -1,6 +1,7 @@
 package ar.com.ada.empleados.empleados.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,5 +20,14 @@ public class CategoriaService {
 
     public List<Categoria> obtenerCategorias() {
         return (repo.findAll());
+    }
+
+    public Categoria obtenerPorId(int categoriId){
+        Optional<Categoria> c = repo.findById(categoriId);
+
+        if(c.isPresent()){
+            return c.get();
+        }
+        return null;
     }
 }
