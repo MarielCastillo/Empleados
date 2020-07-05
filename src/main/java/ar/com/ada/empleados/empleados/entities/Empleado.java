@@ -90,4 +90,5 @@ public class Empleado {
     public void setEstadoId(int estadoId) {
         this.estadoId = estadoId;
     }
+
 }

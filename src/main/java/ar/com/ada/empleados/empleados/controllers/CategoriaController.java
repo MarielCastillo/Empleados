@@ -32,4 +32,6 @@ public class CategoriaController {
     public ResponseEntity<List<Categoria>> listarCategoria() {
         return ResponseEntity.ok(categoriaService.obtenerCategorias());
     }
+
+    
 }

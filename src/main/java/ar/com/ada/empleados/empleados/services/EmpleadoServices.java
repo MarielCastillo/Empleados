@@ -14,10 +14,18 @@ public class EmpleadoServices {
     private EmpleadoRepository repo;
 
     public void crearEmpleado(Empleado empleado) {
-        repo.save(empleado);
+        grabar(empleado);
     }
 
     public List<Empleado> obtenerEmpleado() {
         return (repo.findAll());
+    }
+
+    public Empleado obtenerPorId(int id) {
+        return repo.findById(id);
+    }
+
+    public void grabar(Empleado e) {
+        repo.save(e);
     }
 }

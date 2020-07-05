@@ -7,5 +7,5 @@ import ar.com.ada.empleados.empleados.entities.Empleado;
 
 @Repository
 public interface EmpleadoRepository extends JpaRepository<Empleado, Integer> {
-
+    Empleado findById(int id);
 }
