@@ -6,6 +6,8 @@
 
 🛠️ Otros: JPA, Hibernate, Maven.
 
+![](https://i.ibb.co/njvcM3S/Compromiso-empleados.jpg)
+
 💾 Base de Datos: relacional MYSQL.
 
 ![](https://i.ibb.co/XSLLxjk/mysql-empleados.png)
