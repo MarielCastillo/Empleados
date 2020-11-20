@@ -1,6 +1,6 @@
 # Empleados API Rest
 
-🚀 WEB API Empleados: 
+🚀 WEB API Empleados: Se lleva un registro de los empleados dentro de una empresa con sus sueldos actuales. 
 
 📚 Framework: Spring Boot.
 
